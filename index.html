@@ -26,5 +26,37 @@
   </head>
   <body>
     <img src="komodo.gif" alt="Karma Komodo" />
+
+    <script>
+      const cssColors = [
+        "aqua", "aquamarine", "azure", "beige", "black", "blue",
+        "blueviolet", "brown", "cadetblue", "chartreuse", "chocolate",
+        "coral", "cornflowerblue", "crimson", "cyan", "darkblue",
+        "darkcyan", "darkgoldenrod", "darkgreen", "darkmagenta",
+        "darkolivegreen", "darkorange", "darkorchid", "darkred",
+        "darksalmon", "darkseagreen", "darkslateblue", "darkslategray",
+        "deeppink", "deepskyblue", "dodgerblue", "firebrick", "fuchsia",
+        "gold", "goldenrod", "green", "greenyellow", "hotpink", "indigo",
+        "ivory", "khaki", "lavender", "lawngreen", "lemonchiffon",
+        "lightblue", "lightcoral", "lightcyan", "lightgoldenrodyellow",
+        "lightgreen", "lightpink", "lightsalmon", "lightseagreen",
+        "lightskyblue", "lightsteelblue", "lime", "limegreen", "linen",
+        "magenta", "mediumaquamarine", "mediumblue", "mediumorchid",
+        "mediumpurple", "mediumseagreen", "mediumslateblue",
+        "mediumspringgreen", "mediumturquoise", "midnightblue", "mintcream",
+        "mistyrose", "moccasin", "navajowhite", "navy", "oldlace",
+        "olive", "olivedrab", "orange", "orangered", "orchid", "palegoldenrod",
+        "palegreen", "paleturquoise", "palevioletred", "papayawhip",
+        "peachpuff", "peru", "pink", "plum", "powderblue", "purple",
+        "red", "rosybrown", "royalblue", "saddlebrown", "salmon",
+        "sandybrown", "seagreen", "seashell", "sienna", "silver",
+        "skyblue", "slateblue", "slategray", "snow", "springgreen",
+        "steelblue", "tan", "teal", "thistle", "tomato", "turquoise",
+        "violet", "wheat", "white", "whitesmoke", "yellow", "yellowgreen"
+      ];
+
+      const randomColor = cssColors[Math.floor(Math.random() * cssColors.length)];
+      document.body.style.backgroundColor = randomColor;
+    </script>
   </body>
 </html>
